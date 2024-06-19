@@ -14,8 +14,9 @@ let s="";
 		
 	num=s.split("").reverse().join("");
 	num1=Number(num);
-
-	return num1;
+    num=num1
+	
+	return num;
 
 }
 
