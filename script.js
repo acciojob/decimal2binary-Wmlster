@@ -13,7 +13,7 @@ let s="";
 		}
 		
 	num=s.split("").reverse().join("");
-	num1=Number(num);
+	let num1=Number(num);
     num=num1
 	
 	return num;
