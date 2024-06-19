@@ -10,6 +10,9 @@ function decimalToBinary(num) {
 		}
 
 	num=s.split("").reverse().join("");
+	num1=Number(num);
+
+	return num1;
 }
 
 window.decimalToBinary = decimalToBinary;
